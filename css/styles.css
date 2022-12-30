@@ -307,6 +307,17 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
   line-height: 1.6;
 }
 
+footer .footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--size-50);
+  padding: var(--size-100);
+  
+}
+
+.container .footer-top {background-color: var(--footer);}
+.container .footer-bottom {background-color: var(--footer-base);}
+
 .quote img {
   width: 70px; 
   float: right;
